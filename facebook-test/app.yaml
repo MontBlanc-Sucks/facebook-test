@@ -1,0 +1,20 @@
+application: ds-facebook-test
+version: 1-0-0
+runtime: python
+api_version: 1
+
+handlers:
+- url: /
+  static_files: statics/index.html
+  upload: statics/index.html
+- url: /index\.html
+  static_files: statics/index.html
+  upload: statics/index.html
+- url: /html
+  static_dir: statics/html
+- url: /css
+  static_dir: statics/css
+- url: /img
+  static_dir: statics/img
+- url: /js
+  static_dir: statics/js
