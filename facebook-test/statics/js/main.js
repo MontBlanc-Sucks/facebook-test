@@ -16,6 +16,15 @@ window.fbAsyncInit = function() {
 		if (response.session) {
 			jQuery('#login').show();
 			// logined action
+			FB.api('/me', function(response) {
+				jQuery('.me-name').text( response.name + 'さん');
+				var points = (function(name){
+					var result = 0;
+					result = (name.length % 15) + 1;
+					return result;
+				})(response.name);
+				jQuery('.me-points').text( points + '点です');
+			});
 		}
 		else {
 			jQuery('#not_login').show();
