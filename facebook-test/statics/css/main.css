@@ -12,26 +12,26 @@ h3, h4, h5 {
 	font-size: 110%;
 }
 /* login */
-#login h1 {
+h1 {
 	padding: .5em;
 	border: 1px solid #D8DFEA;
 	border-radius: 6px;
 	background: #f0f2f7;
 }
-#login .points {
+.points {
 	padding: 1em 0;
 	color: #f00;
 	font-size: 130%;
 	font-weight: bold;
 	text-align: center;
 }
-#login .attention {
+.attention {
 	margin: 2em auto;
 	padding: 1em;
 	border-radius: 6px;
 	background: #F5F7FA;
 	box-shadow: 0px 0px  10px rgba(0,0,0,0.3);
 }
-#login .attention h2 {
+.attention h2 {
 	text-align: center;
 }
