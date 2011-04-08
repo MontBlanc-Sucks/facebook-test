@@ -1,14 +1,22 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>facebook活用診断</title>
 	<meta name="author" content="mon_sat">
 	<link rel="stylesheet" href="/css/main.css" type="text/css" />
-	<meta name="viewport" content="width=480" />
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-  <script type="text/javascript">
-	</script>
 </head>
 <body>
+	<div id="fb-root"></div>
+	<div style="width : 740px;">
+		<div id="login" style="display : none;">
+			Thank you for your accepting.
+		</div>
+		<div id="not_login" style="display : none;">
+			<p><a id="login_button" class="fb_button fb_button_medium"><span class="fb_button_text">このアプリケーションを許可して診断を実施する</span></a></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>
